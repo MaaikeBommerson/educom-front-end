@@ -1,0 +1,42 @@
+@use "sass:math";
+
+@import 'vars';
+
+@mixin flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: $primary;
+}
+
+.card {
+    @include flex-container;
+}
+
+.aside {
+    @include flex-container;
+}
+
+
+@function pxToRem($pxValue) {
+    @return math.div($pxValue, 16px) * 1rem;
+}
+
+div {
+    width: pxToRem(480);
+}
+
+@mixin body-theme($theme) {
+    @if $theme == "light" {
+        background-color: $light-bg;
+    } @else {
+        background-color: $dark-bg;
+    }
+}
+
+$red: #ff0000;
+
+a:visited {
+    color: darken($red, 25%);
+}
