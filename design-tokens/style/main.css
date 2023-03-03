@@ -253,4 +253,144 @@
 @font-face {
   font-family: "heading";
   src: url("../fonts/futult-webfont.woff2") format("woff2"), url("../fonts/futult-webfont.woff") format("woff"), url("../fonts/futult-webfont.ttf") format("ttf");
+}
+/** UTILITY: Fonts **/
+.main-text-regular-10 {
+  font-family: "main-text-regular";
+  font-size: 10px;
+}
+
+.main-text-regular-12 {
+  font-family: "main-text-regular";
+  font-size: 12px;
+}
+
+.main-text-regular-14 {
+  font-family: "main-text-regular";
+  font-size: 14px;
+}
+
+.main-text-regular-16 {
+  font-family: "main-text-regular";
+  font-size: 16px;
+}
+
+.main-text-regular-18 {
+  font-family: "main-text-regular";
+  font-size: 18px;
+}
+
+.main-text-regular-20 {
+  font-family: "main-text-regular";
+  font-size: 20px;
+}
+
+.main-text-regular-22 {
+  font-family: "main-text-regular";
+  font-size: 22px;
+}
+
+.main-text-medium-10 {
+  font-family: "main-text-medium";
+  font-size: 10px;
+}
+
+.main-text-medium-12 {
+  font-family: "main-text-medium";
+  font-size: 12px;
+}
+
+.main-text-medium-14 {
+  font-family: "main-text-medium";
+  font-size: 14px;
+}
+
+.main-text-medium-16 {
+  font-family: "main-text-medium";
+  font-size: 16px;
+}
+
+.main-text-medium-18 {
+  font-family: "main-text-medium";
+  font-size: 18px;
+}
+
+.main-text-medium-20 {
+  font-family: "main-text-medium";
+  font-size: 20px;
+}
+
+.main-text-medium-22 {
+  font-family: "main-text-medium";
+  font-size: 22px;
+}
+
+.main-text-bold-10 {
+  font-family: "main-text-bold";
+  font-size: 10px;
+}
+
+.main-text-bold-12 {
+  font-family: "main-text-bold";
+  font-size: 12px;
+}
+
+.main-text-bold-14 {
+  font-family: "main-text-bold";
+  font-size: 14px;
+}
+
+.main-text-bold-16 {
+  font-family: "main-text-bold";
+  font-size: 16px;
+}
+
+.main-text-bold-18 {
+  font-family: "main-text-bold";
+  font-size: 18px;
+}
+
+.main-text-bold-20 {
+  font-family: "main-text-bold";
+  font-size: 20px;
+}
+
+.main-text-bold-22 {
+  font-family: "main-text-bold";
+  font-size: 22px;
+}
+
+.heading-10 {
+  font-family: "heading";
+  font-size: 10px;
+}
+
+.heading-12 {
+  font-family: "heading";
+  font-size: 12px;
+}
+
+.heading-14 {
+  font-family: "heading";
+  font-size: 14px;
+}
+
+.heading-16 {
+  font-family: "heading";
+  font-size: 16px;
+}
+
+.heading-18 {
+  font-family: "heading";
+  font-size: 18px;
+}
+
+.heading-20 {
+  font-family: "heading";
+  font-size: 20px;
+}
+
+.heading-22 {
+  font-family: "heading";
+  font-size: 22px;
 }/*# sourceMappingURL=main.css.map */

@@ -2,12 +2,25 @@
 @each $entry in $fonts {
     $type: map-get($entry, "type");
     $uri: map-get($entry, "uri");
+
     /*! #{$type} */
     @font-face {
         font-family: '#{$type}';
         src: 
         url($uri + ".woff2") format('woff2'),
         url( $uri + ".woff")  format('woff'),
-         url( $uri + ".ttf")  format('ttf');
+        url( $uri + ".ttf")  format('ttf');
     }
 }
+
+    /** UTILITY: Fonts **/
+
+    @each $entry in $fonts {
+        $type: map-get($entry, "type");
+        @each $size in map-get($entry, "sizes") {
+          .#{$type}-#{$size} {
+            font-family: "#{$type}";
+            font-size: #{$size}px;
+          }
+        }
+      }
