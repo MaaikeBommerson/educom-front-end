@@ -234,6 +234,10 @@
   color: var(--fg-secondary-dark-50);
 }
 
+.shadow {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.45);
+}
+
 /*! main-text-regular */
 @font-face {
   font-family: "main-text-regular";
@@ -393,4 +397,103 @@
 .heading-22 {
   font-family: "heading";
   font-size: 22px;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.padding-small {
+  padding: 1rem;
+}
+
+.padding-medium {
+  padding: 2rem;
+}
+
+.padding-large {
+  padding: 3rem;
+}
+
+.border-radius-full {
+  border-radius: 25px;
+}
+
+.border-radius-top {
+  border-radius: 25px 25px 0 0;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+body {
+  font-family: "main-text-regular";
+}
+
+h2 {
+  color: var(--fg-secondary-dark-50);
+}
+
+.text-dark {
+  color: var(--fg-secondary-dark-50);
+}
+
+.text-base-darkest {
+  color: var(--fg-secondary-dark-40);
+}
+
+.flow {
+  margin-top: 1em;
+}
+
+.grid-flow {
+  display: grid;
+  gap: 2em;
+}
+
+.card {
+  max-width: 30rem;
+  overflow-y: hidden;
+}
+
+.button {
+  cursor: pointer;
+  color: var(--fg-secondary-dark-50);
+  text-decoration: none;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.75em 1.5em;
+  transition: all 0.3s ease;
+}
+.button[data-type=button-primary] {
+  color: var(--fg-primary-light-40);
+  background: var(--bg-secondary-dark-10);
+}
+.button:focus, .button:hover {
+  background-color: var(--bg-secondary-dark-30);
+  color: var(--fg-primary-light-40);
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-image {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
