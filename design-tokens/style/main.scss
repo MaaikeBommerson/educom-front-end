@@ -3,3 +3,65 @@
 // @import 'reset';
 @import 'root';
 @import 'utility';
+
+body {
+    font-family: "main-text-regular";
+}
+
+h2 {
+    color: var(--fg-secondary-dark-50);
+}
+
+// text color
+.text-dark {
+    color: var(--fg-secondary-dark-50);
+}
+.text-base-darkest {
+    color: var(--fg-secondary-dark-40);
+}
+
+.flow {
+    margin-top: 1em;
+}
+.grid-flow {
+    display: grid;
+    gap: 2em;
+}
+
+// BLOCK
+.card {
+    max-width: 30rem;
+    overflow-y: hidden;
+}
+
+.button {
+    cursor: pointer;
+    color: var(--fg-secondary-dark-50);
+    text-decoration: none;
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 0.75em 1.5em;
+    transition: all 0.3s ease;
+
+    &[data-type="button-primary"] {
+        color: var(--fg-primary-light-40);
+        background: var(--bg-secondary-dark-10);
+    }
+
+    &:focus,
+    &:hover {
+    background-color: var(--bg-secondary-dark-30);
+    color: var(--fg-primary-light-40);
+    }
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-image {
+    width: 100%;
+}

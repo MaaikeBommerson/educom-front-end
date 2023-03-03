@@ -479,12 +479,12 @@ h2 {
   transition: all 0.3s ease;
 }
 .button[data-type=button-primary] {
-  color: var(--fg-primary-light-40);
-  background: var(--bg-secondary-dark-10);
+  color: var(--color-white);
+  background: var(--color-base);
 }
 .button:focus, .button:hover {
-  background-color: var(--bg-secondary-dark-30);
-  color: var(--fg-primary-light-40);
+  background-color: var(--color-base-dark);
+  color: var(--color-white);
 }
 
 .card-row {
